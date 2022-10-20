@@ -9,3 +9,4 @@ void main()
         printf("%d\n",*p[i]);
     }
 }
+

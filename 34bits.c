@@ -7,5 +7,4 @@ int main()
     int extractingbits=(inputbit & bitmask);
     int equivalentdecimal=(extractingbits>>3);
     printf("%d",equivalentdecimal);
-    return 0;
 }

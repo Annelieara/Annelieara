@@ -10,5 +10,4 @@ int main()
     sum2=(s&mask);
     sum=sum+((sum2>>3) & bit);
     printf("%d",sum);
-    return 0;
 }
