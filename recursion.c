@@ -1,6 +1,7 @@
 #include<stdio.h>
 void rev(int);
 void main()
+
 {
     rev(10);
 }

@@ -7,6 +7,7 @@ struct Employeerec
     int year;
 };
 int main()
+
 {
     struct Employeerec Emp1 = {"ANNELIE", 20, 2001};
     struct Employeerec Emp2 = {"MARY", 18, 2004};

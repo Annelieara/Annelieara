@@ -1,5 +1,6 @@
 #include<stdio.h>
 int main()
+
 {
     int number=4;
     int *pointer=&number;

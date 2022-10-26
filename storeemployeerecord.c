@@ -6,6 +6,7 @@ struct employee
     int joiningdate;
 };
 int main()
+
 {
     struct employee s1;
     struct employee s2;

@@ -2,6 +2,7 @@
 int main()
 {
     int size;
+    
     scanf("%d",&size);
     int array[size],index;
     for(index=0;index<size;index++)

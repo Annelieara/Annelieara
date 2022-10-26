@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<math.h>
 int main()
+
 {
     signed char a=1;
     int b;

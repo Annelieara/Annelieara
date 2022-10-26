@@ -5,5 +5,5 @@ void main()
     int*p,i;
     p=&arr[0];
     for(i=0;i<5;i++)
-    printf("%u\n",*(p+i)+10);
+    printf("%u\n",*(p+i));
 }

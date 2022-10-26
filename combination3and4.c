@@ -1,5 +1,6 @@
 #include<stdio.h>
 int main()
+
 {
     int a,m=8;
     scanf("%d",&a);

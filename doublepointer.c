@@ -1,5 +1,6 @@
 #include<stdio.h>
 int main()
+
 {
     int arr[3]={10,20,30};
     int *ptr=&arr,index,**ptr1=&ptr;

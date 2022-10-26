@@ -1,4 +1,4 @@
-#include<stdio.h>
+3#include<stdio.h>
 int main()
 {
     int s,sum1=0, sum2=0, sum=0,mask=8,bit=1;
