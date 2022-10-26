@@ -7,3 +7,4 @@ void main()
     for(i=0;i<5;i++)
     printf("%u\n",*(p+i));
 }
+// hello 
