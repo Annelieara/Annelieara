@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Screen</title>
+    <style>
+		body {
+			margin: 0;
+			padding: 0;
+			background-color: #5043d8;
+			font-family: Arial, sans-serif;
+		}
+
+		.master-container {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+			background-color: #4838d5;
+		}
+
+		.form-container {
+			width: 400px;
+			background-color: #fff;
+			padding: 20px;
+			border-radius: 5px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+
+		.form-container h1 {
+			text-align: center;
+			margin-bottom: 20px;
+			color: #333;
+		}
+
+		.form-container input[type="text"],
+		.form-container input[type="email"],
+		.form-container input[type="password"] {
+			width: 90%;
+			padding: 10px;
+			margin-bottom: 10px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			font-size: 16px;
+			color: #333;
+		}
+
+		.form-container input[type="submit"] {
+			width: 100%;
+			padding: 10px;
+			background-color: #3b5998;
+			color: #fff;
+			border: none;
+			border-radius: 5px;
+			font-size: 16px;
+			cursor: pointer;
+		}
+
+		.form-container input[type="submit"]:hover {
+			background-color: #2d4373;
+		}
+
+		.form-container p {
+			text-align: center;
+			margin-top: 20px;
+			font-size: 16px;
+		}
+
+		.form-container p a {
+			color: #3b5998;
+			text-decoration: none;
+		}
+
+		.form-container p a:hover {
+			text-decoration: underline;
+		}
+
+		.remember-me-container {
+			display: flex;
+			align-items: center;
+			margin-bottom: 20px;
+		}
+
+		.remember-me-container input[type="checkbox"] {
+			accent-color: #3b5998;
+		}
+
+		.remember-me-container label {
+			font-size: 16px;
+			margin-left: 10px;
+		}
+
+		.form-container .forgot-password {
+			text-align: right;
+			margin-top: -10px;
+			font-size: 14px;
+			color: #3b5998;
+		}
+
+		.form-container .forgot-password a {
+			text-decoration: none;
+		}
+
+		.form-container .forgot-password a:hover {
+			text-decoration: underline;
+		}
+	</style>
+</head>
+<body>
+	<div class="master-container">
+		<div class="form-container">
+			<h1>Login to your account</h1>
+			<form action="#">
+				<label for="email">Email</label>
+				<input type="email" id="email" name="email" value="annelie@richpanel.com" required>
+
+				<label for="password">Password</label>
+				<input type="password" id="password" name="password" required>
+
+				<div class="remember-me-container">
+					<input type="checkbox" id="remember-me" name="remember-me">
+					<label for="remember-me">Remember Me</label>
+				</div>
+
+				<input type="submit" value="Login">
+			</form>
+            <br>
+			<p class="forgot-password">
+				<a href="#">Forgot Password?</a>
+			</p>
+		</div>
+	</div>
+</body>
+</html>
